@@ -12,13 +12,8 @@ BuildRequires:  make,gcc
 %description
 A wtest program.
 
-%prep
-#%setup -q
-#mkdir $RPM_BUILD_ROOT
-
 %build
-#make
-#%configure
+%configure
 %make_build
 
 %install
